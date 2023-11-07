@@ -1,0 +1,10 @@
+server:
+  port: 8082
+curator:
+  connectString: "121.37.238.132:2181,121.37.238.132:2182,121.37.238.132:2183"
+  sessionTimeOut: 60000
+  connectionTimeOut: 15000
+  nameSpace: "zookeeper-cluster"
+  retry:
+    baseSleepTimeMs: 3000
+    maxRetries: 10
